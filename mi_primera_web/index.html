@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Nahuel Miranda</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/f5b6c8cb53.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="navegacion">
+                <nav>
+                    <ul>
+                        <li><a href="#acerca-d">Acerca de mi</a></li>
+                        <li><a href="#trabaj">Proyectos</a></li>
+                        <li><a href="#contactor">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main id="seccion-principal">
+            <section id="acerca-d" class="seccion-1">
+                <div class="avc">
+                    <div class="acerca-de">
+                        <h1>Nahuel Miranda</h1>
+                        <h2>Desarrollador Full-Stack</h2>
+                        <p>20 años de edad<br>
+                            Mendoza, Argentina<br></p>
+                    </div>
+                    <div class="acerca-imagen">
+                        <img src="img/1.jpg" alt="imagen portada" height="350em" width="350em">
+                    </div>
+                </div>
+            </section>
+            <section id="trabaj" class="seccion-1.1">
+                <div class="trabajos">
+                    <div class="tit-trabajos">
+                        <h1>Proyectos</h1>
+                    </div>
+                    <div class="contenedor-trabajos">
+                        <div class="trabajo-1">
+                            <h2>Calculadora</h2>
+                            <img class="calculadora-img" src="img/calculadora.jpg" alt="imagen calculadora"
+                                height="200em" width="200em">
+                            <p>HTML<br>CSS<br>Javascript</p>
+                        </div>
+                        <div class="trabajo-2">
+                            <h2>Calendario</h2>
+                            <img class="calendario-img" src="img/calendario.jpg" alt="imagen calendario" height="200em"
+                                width="200em">
+                            <p>HTML<br>CSS<br>Javascript</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contactor" class="seccion-1.2">
+                <div class="contact">
+                    <h1 class="titulo_seccion">Contacto</h1>
+                    <div class="form_contenedor">
+                        <div class="containerform">
+                            <form>
+                                <div class="form-group">
+                                    <label for="nombre">Nombre:</label>
+                                    <input type="text" id="nombre" name="nombre">
+                                </div>
+                                <!-- Agrega más inputs aquí -->
+                                <div class="form-group">
+                                    <label for="mensaje">Mensaje:</label>
+                                    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="mail">Email:</label>
+                                    <input type="email" id="mail" name="user_mail" />
+                                </div>
+                                <div class="botone">
+                                    <button type="submit">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-text">
+                <p>Derechos reservados por Nahuel Miranda</p>
+            </div>
+        </footer>
+    </div>
+    <script src="/index.js"></script>
+</body>
+
+</html>
